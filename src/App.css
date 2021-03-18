@@ -1,0 +1,34 @@
+.site {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.ok-btn  {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, var(--basic-light) 50%, var(--basic) 100%);
+    color: var(--white);
+    border: 1px solid var(--basic-dark);
+    margin-left: 10px;
+}
+
+.ok-btn:focus {
+    outline: 2px solid var(--acid);   
+    transition: .3 ease-in-out;
+    font-weight: 500;
+}
+
+.ok-btn:hover {
+    background: linear-gradient(to bottom, var(--basic) 50%, var(--basic-dark) 100%);
+    color: var(--white);
+    transition: .3 ease-in-out;
+}
+
+.ok-btn:active {
+    background: var(--font);
+    color: var(--accent);
+    transition: .3 ease-in-out;
+}

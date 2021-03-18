@@ -1,0 +1,25 @@
+header {
+    background-color: var(--basic-dark);
+}
+
+.top-bar {
+    padding:0px;
+    font-size: 12px;
+    border-bottom: 1px solid var(--accent-light);
+    min-height: 40px;
+}
+
+.main-header {
+    padding: 20px 0 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.site-title {
+    color: var(--accent);
+}

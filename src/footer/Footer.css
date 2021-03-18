@@ -1,0 +1,64 @@
+
+.footer .footer-bottom {
+    background-color: var(--basic-dark);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .footer-bottom  ul li a {
+    line-height: 30px;
+    color: var(--accent-light);
+    position: relative;
+    margin-left: 23px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer .footer-bottom ul li a:hover {
+    color: var(--accent);
+    transition: .3 ease-in-out;
+}
+
+.footer .footer-bottom ul li a:focus {
+    outline: 2px solid var(--acid);  
+    outline-offset: 1px;
+    transition: .3 ease-in-out;
+}
+
+.footer .footer-bottom ul li a:active {
+    color: var(--acid);
+    transition: .3 ease-in-out;
+}
+
+.footer-title {
+    color: var(--accent-light);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: var(--accent-light);
+}
+
+.footer-title a {
+    color: var(--accent);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.footer-title a:hover {
+    color: var(--accent-light);
+    transition: .3 ease-in-out;
+}
+
+.footer-title a:focus {
+    outline: 2px solid var(--acid);  
+    outline-offset: 3px;
+    transition: .3 ease-in-out;
+}
+
+.footer-title a:active {
+    color: var(--acid);
+    transition: .3 ease-in-out;
+}

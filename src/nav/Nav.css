@@ -1,0 +1,74 @@
+.header-nav {
+    background: var(--basic);
+    color: var(--accent-light);
+}
+
+/* .nav__style {
+    display: inline-block;
+    padding: 15px 25px 15px;
+    color: var(--accent-light);
+    cursor: pointer;
+}
+
+
+.nav__style:hover {
+    background: var(--basic-light);
+    transition:  ease-in-out;
+} */
+
+.nav__list {
+    display: flex;
+}
+
+.nav__style {
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(31, 31, 34);
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .05),
+                6px 6px 9px rgba(0, 0, 0, .2),
+                inset -2px -2px 6px rgba(255, 255, 255, .05),
+                inset 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.nav__style::before {
+    /* глянец сверху кнопки */
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: calc(50% - 4px);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgba(255,255,255,.1);
+}
+
+.nav__text {
+    padding: 20px 30px;
+    color: var(--bg);
+    text-shadow: 0 0 15px var(--bg),
+                 0 0 25px var(--bg);
+    /* animation: animate 5s linear infinite; */
+}
+
+.nav__style:hover .nav__text  {
+    color: var(--accent);
+    text-shadow: 0 0 15px var(--accent),
+                 0 0 25px var(--accent);
+    transition: .3 ease-in-out;
+}
+
+
+.nav__style:active .nav__text {
+    /* При нажатии убирает внешнюю тень - эффект вдавленной кнопки */
+    box-shadow: inset 0 0 4px rgba(255, 255, 255, .1),
+                inset 6px 6px 8px rgba(0, 0, 0, .2);
+}

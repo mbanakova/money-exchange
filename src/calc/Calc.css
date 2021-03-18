@@ -1,0 +1,38 @@
+input,
+select,
+button {
+    background: var(--bg-light);
+    border: 1px solid var(--basic-dark);
+    padding: 10px 20px;
+}
+
+input:focus,
+select:focus,
+button:focus {
+    outline: 2px solid var(--acid);   
+    transition: .3 ease-in-out;
+    font-weight: 500;
+}
+
+button {
+    background: linear-gradient(to bottom, var(--basic-light) 50%, var(--basic) 100%);
+    color: var(--white);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, var(--basic) 50%, var(--basic-dark) 100%);
+    color: var(--white);
+    transition: .3 ease-in-out;
+}
+
+button:active {
+    background: var(--font);
+    color: var(--accent);
+    transition: .3 ease-in-out;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+}
