@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mbanakova.github.io/exchange/static/css/main.875195e1.chunk.css",
+    "main.js": "/mbanakova.github.io/exchange/static/js/main.10b28802.chunk.js",
+    "main.js.map": "/mbanakova.github.io/exchange/static/js/main.10b28802.chunk.js.map",
+    "runtime-main.js": "/mbanakova.github.io/exchange/static/js/runtime-main.b396f722.js",
+    "runtime-main.js.map": "/mbanakova.github.io/exchange/static/js/runtime-main.b396f722.js.map",
+    "static/js/2.fcdd114a.chunk.js": "/mbanakova.github.io/exchange/static/js/2.fcdd114a.chunk.js",
+    "static/js/2.fcdd114a.chunk.js.map": "/mbanakova.github.io/exchange/static/js/2.fcdd114a.chunk.js.map",
+    "static/js/3.6db66d43.chunk.js": "/mbanakova.github.io/exchange/static/js/3.6db66d43.chunk.js",
+    "static/js/3.6db66d43.chunk.js.map": "/mbanakova.github.io/exchange/static/js/3.6db66d43.chunk.js.map",
+    "index.html": "/mbanakova.github.io/exchange/index.html",
+    "static/css/main.875195e1.chunk.css.map": "/mbanakova.github.io/exchange/static/css/main.875195e1.chunk.css.map",
+    "static/js/2.fcdd114a.chunk.js.LICENSE.txt": "/mbanakova.github.io/exchange/static/js/2.fcdd114a.chunk.js.LICENSE.txt",
+    "static/media/currency.88d7dc95.svg": "/mbanakova.github.io/exchange/static/media/currency.88d7dc95.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b396f722.js",
+    "static/js/2.fcdd114a.chunk.js",
+    "static/css/main.875195e1.chunk.css",
+    "static/js/main.10b28802.chunk.js"
+  ]
+}
